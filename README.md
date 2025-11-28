@@ -28,20 +28,22 @@ O projeto foi desenvolvido em grupo por 4 integrantes:
 
 Para rodar o projeto e a simulação da API, é necessário ter o **Node.js** instalado.
 
-1.  **Clonar o Repositório:**
+1.  **Clonar o Repositório**
     ```bash
     git clone [https://github.com/sthefanyematias/petshop-pw.git](https://github.com/sthefanyematias/petshop-pw1.git)
     cd petshop-pw1
     ```
 
-2.  **Inicializar a Simulação da API (1º CMD):**
+2.  **Inicializar a Simulação da API (1º CMD)**
+
     Abra o primeiro terminal CMD ou Git Bash na pasta do projeto e execute:
     ```bash
     npx json-server products.json
     ```
     *Este terminal deve permanecer aberto.*
 
-3.  **Iniciar o Servidor Web (2º CMD):**
+4.  **Iniciar o Servidor Web (2º CMD)**
+
     Abra um **segundo terminal** na mesma pasta e execute:
     ```bash
     npx serve . -p 5500
