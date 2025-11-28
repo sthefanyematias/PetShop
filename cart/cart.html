@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>AuMigo & Cia - Sacola</title>
+</head>
+
+<body onload="renderizarHeader(); renderizarCarrinho();">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="../img/logo.png" style="width: 40px" alt="Logo AuMigo & Cia" />
+                    AuMigo & Cia
+                </a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <div class="nav-right-group">
+                <ul class="menu">
+                    
+                </ul> 
+
+                <div class="buttons">
+                    <span id="userInfoContainer" class="user-info-group">
+                        <span id="saudacaoNome"></span>
+
+                        <a href="javascript:logout()" class="btn-cadastrar" id="logoutButton">Sair</a>
+                    </span>
+
+                    <a href="/cart/cart.html" class="cart-icon" aria-label="Sacola de Compras">
+                        <img src="../img/sacola.png" alt="Sacola de Compras" style="width: 35px; height: 35px;" />
+                        <span id="basket" class="badge">0</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Sua Sacola de Compras</h2>
+
+        <div class="flex-container">
+            <div class="cart-items" id="cart-container">
+            </div>
+        </div>
+
+        <div id="total-summary-card" class="summary-card" style="display:none;">
+            <h3>Total da Sacola</h3>
+            <span id="total-geral" class="summary-total-value"></span>
+        </div>
+
+        <div class="bottom-cta-wrapper">
+            <div class="bottom-cta">
+                <span class="btn-group-cart">
+                    <a href="javascript:limparCarrinho()" class="btn btn-cart-vazado">Limpar Sacola</a>
+                </span>
+
+                <span class="btn-group-cart">
+                    <a href="/index.html" class="btn btn-cart-vazado">Comprar Mais</a>
+                </span>
+                <span class="btn-group-cart">
+                    <a href="/checkout/checkout.html" class="btn btn-cart-preenchido">Finalizar Compra</a>
+                </span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="foot-col-social">
+                    <p>Siga-nos:</p>
+                    <ul class="social">
+                        <li><a href="#"><img src="../social-icons/facebook.svg" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="../social-icons/instagram.svg" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="../social-icons/tumblr.svg" alt="Tumblr"></a></li>
+                        <li><a href="#"><img src="../social-icons/twitter.svg" alt="Twitter"></a></li>
+                    </ul>
+                </div>
+                <div class="foot-col-text">
+                    <p>Ligue para nós:</p>
+                    <strong>+55 11 94002-8922</strong>
+                </div>
+                <div class="foot-col-newsletter">
+                    <p>Para ofertas e novidades:</p>
+                    <form id="newsletter-form" onsubmit="handleNewsletterSubscription(event)">
+                        <div class="newsletter-input-group">
+                            <input type="email" id="newsletter-email-input" class="foot-input"
+                                placeholder="aumigo@aumigo.com" required />
+                            <button type="submit" class="btn btn-newsletter-submit">Inscrever</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="footer-text">
+                <p>
+                    Design desenvolvido por Aumigo&Cia | 2025 |
+                    <a href="#">Política de Privacidade</a> |
+                    <a href="#">Política de Devolução</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="/auth/auth.js"></script>
+    <script src="/cart/cart.js"></script>
+</body>
+
+</html>
