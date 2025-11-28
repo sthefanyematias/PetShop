@@ -21,7 +21,7 @@ O projeto utiliza o armazenamento interno do navegador para gerenciar o estado:
 O projeto foi desenvolvido em grupo por 4 integrantes:
 * Geovanna de Lima Novais
 * Laís da Silva Ferreira
-* Patrícia Queiroz de Oliveira 
+* Patrícia Queiroz de Oliveira | GitHub: patriciaqueiroz2025
 * Sthefany Evangelista Matias | GitHub: sthefanyematias
 
 ## 🛠️ Como Executar o Projeto Localmente
