@@ -1,0 +1,194 @@
+[
+  {
+    "id": "101",
+    "name": "Ração Premium para Cães Adultos",
+    "price": "129.90",
+    "description": "Alimento completo e balanceado, sabor frango e vegetais, para raças médias e grandes. 15kg.",
+    "category": "caes",
+    "imageURL": "img/cachorro.jpg" 
+  },
+  {
+    "id": "102",
+    "name": "Tapete Higiênico Super Absorvente",
+    "price": "59.90",
+    "description": "Pacote com 30 unidades. Tecnologia de gel super absorvente, ideal para adestramento e higiene.",
+    "category": "caes",
+    "imageURL": "img/tapete-higienico.png"
+  },
+  {
+    "id": "103",
+    "name": "Brinquedo Mordedor de Borracha Resistente",
+    "price": "35.50",
+    "description": "Mordedor ultra-resistente, ideal para cães grandes. Promove a saúde dental. Não tóxico.",
+    "category": "caes",
+    "imageURL": "img/osso-borracha.png"
+  },
+  {
+    "id": "104",
+    "name": "Coleira Peitoral Antitração Comfort",
+    "price": "89.90",
+    "description": "Peitoral ergonômico com ajuste de 4 pontos, alivia a pressão no pescoço. Tamanho G.",
+    "category": "caes",
+    "imageURL": "img/coleira-peitoral.jpg"
+  },
+  {
+    "id": "105",
+    "name": "Ossinho Mastigável Sabor Bacon (10 un.)",
+    "price": "42.00",
+    "description": "Petisco nutritivo e divertido que ajuda a reduzir o tártaro. Sabor bacon defumado.",
+    "category": "caes",
+    "imageURL": "img/osso-bacon.jpg"
+  },
+  {
+    "id": "106",
+    "name": "Cama de Luxo Anti-Stress para Cães",
+    "price": "189.90",
+    "description": "Cama redonda em pelúcia macia, proporciona conforto e reduz a ansiedade. Diâmetro 70cm.",
+    "category": "caes",
+    "imageURL": "img/cama-luxo.png"
+  },
+  {
+    "id": "201",
+    "name": "Ração Úmida Sachê Sabor Salmão (12 un.)",
+    "price": "65.00",
+    "description": "Alimento completo e suculento para gatos adultos. Rico em taurina e ômega 3.",
+    "category": "gatos",
+    "imageURL": "img/racao-salmao.jpg"
+  },
+  {
+    "id": "202",
+    "name": "Arranhador Torre Gigante para Gatos",
+    "price": "249.00",
+    "description": "Torre de arranhar de luxo com 3 plataformas, casinha e brinquedos pendurados. Altura de 1,5m.",
+    "category": "gatos",
+    "imageURL": "img/arranhador-gato.jpg"
+  },
+  {
+    "id": "203",
+    "name": "Bebedouro Fonte Automática 2L",
+    "price": "89.90",
+    "description": "Fonte com filtro de carbono ativo. Mantém a água fresca e estimula o gato a beber mais.",
+    "category": "gatos",
+    "imageURL": "img/bebedouro-fonte-automatica.jpg"
+  },
+  {
+    "id": "204",
+    "name": "Areia Sanitária Ultra Premium (5kg)",
+    "price": "49.90",
+    "description": "Areia granulada de alto poder de absorção, forma torrões firmes e neutraliza odores.",
+    "category": "gatos",
+    "imageURL": "img/areia-sanitaria.jpg"
+  },
+  {
+    "id": "205",
+    "name": "Conjunto de Varinhas Interativas (3 un.)",
+    "price": "22.50",
+    "description": "Varinhas com penas e guizos que promovem exercício e fortalecem o laço com o dono.",
+    "category": "gatos",
+    "imageURL": "img/varinhas.jpg"
+  },
+  {
+    "id": "206",
+    "name": "Escova Removedora de Pelos Furminator",
+    "price": "110.00",
+    "description": "Ferramenta profissional para remover sub-pelos soltos, reduzindo drasticamente as bolas de pelo.",
+    "category": "gatos",
+    "imageURL": "img/escova-removedora.jpg"
+  },
+  {
+    "id": "301",
+    "name": "Semente de Alpiste Enriquecida (500g)",
+    "price": "18.50",
+    "description": "Mix de sementes e vitaminas essenciais para canários, periquitos e outros pássaros pequenos.",
+    "category": "bird",
+    "imageURL": "img/semente-alpiste.jpg"
+  },
+  {
+    "id": "302",
+    "name": "Gaiola Decorativa para Calopsita",
+    "price": "199.90",
+    "description": "Gaiola grande com design moderno, bandeja removível e poleiros de madeira natural.",
+    "category": "bird",
+    "imageURL": "img/gaiola-calopsita.jpg"
+  },
+  {
+    "id": "303",
+    "name": "Comedouro Pendular Anti-Desperdício",
+    "price": "45.00",
+    "description": "Comedouro transparente que se prende à gaiola, reduzindo a sujeira e o desperdício de sementes.",
+    "category": "bird",
+    "imageURL": "img/comedouro.jpg"
+  },
+  {
+    "id": "304",
+    "name": "Brinquedo Escada de Madeira e Sisal",
+    "price": "29.90",
+    "description": "Escada flexível para enriquecimento ambiental de calopsitas e periquitos.",
+    "category": "bird",
+    "imageURL": "img/escada-madeira.jpg"
+  },
+  {
+    "id": "305",
+    "name": "Bloco de Cálcio e Osso de Siba",
+    "price": "12.00",
+    "description": "Fonte natural de cálcio, fundamental para a saúde óssea e o bico do seu pássaro.",
+    "category": "bird",
+    "imageURL": "img/bloco-calcio.jpg"
+  },
+  {
+    "id": "306",
+    "name": "Banheira Externa para Gaiola",
+    "price": "35.00",
+    "description": "Banheira plástica de encaixe externo. Promove o banho higiênico e refrescante.",
+    "category": "bird",
+    "imageURL": "img/banheira-passaro.webp"
+  },
+  {
+    "id": "401",
+    "name": "Roda de Exercícios Silenciosa Pro",
+    "price": "55.00",
+    "description": "Roda de 20cm com rolamento de esferas, totalmente silenciosa. Essencial para o bem-estar.",
+    "category": "hamster",
+    "imageURL": "img/roda-hamster.jpg"
+  },
+  {
+    "id": "402",
+    "name": "Mix de Sementes Premium Roedores (500g)",
+    "price": "25.90",
+    "description": "Alimento balanceado com grãos, sementes e frutas secas, rico em vitaminas e proteínas.",
+    "category": "hamster",
+    "imageURL": "img/sementes-roedores.png"
+  },
+  {
+    "id": "403",
+    "name": "Túnel de Plástico Modular (4 peças)",
+    "price": "75.00",
+    "description": "Conjunto de túneis modulares transparentes que incentivam a exploração e o exercício.",
+    "category": "hamster",
+    "imageURL": "img/tunel-modular.jpg"
+  },
+  {
+    "id": "404",
+    "name": "Casa de Madeira Refúgio Natural",
+    "price": "49.90",
+    "description": "Casinha de madeira natural, atóxica, que serve como refúgio e ninho para o hamster.",
+    "category": "hamster",
+    "imageURL": "img/casa-hamster.jpg"
+  },
+  {
+    "id": "405",
+    "name": "Pacote de Serragem de Pinus Tratada (5L)",
+    "price": "15.00",
+    "description": "Serragem macia e absorvente para forração de gaiolas, minimiza odores.",
+    "category": "hamster",
+    "imageURL": "img/serragem.webp"
+  },
+  {
+    "id": "406",
+    "name": "Bebedouro Automático para Roedores 80ml",
+    "price": "19.90",
+    "description": "Bebedouro com bico de aço inoxidável e fixação universal para gaiolas.",
+    "category": "hamster",
+    "imageURL": "img/bebedouro-hamster.jpeg"
+  }
+]
