@@ -1,5 +1,5 @@
 
-# AuMigo & Cia — Plataforma E-commerce Petshop
+# AuMigo & Cia: Plataforma E-commerce Petshop
 
 Projeto desenvolvido como trabalho final da disciplina de **Programação Web (PW)** do curso de **Análise e Desenvolvimento de Sistemas**. O objetivo foi construir o frontend completo de uma loja virtual, com foco na manipulação dinâmica do DOM, persistência de dados via Web Storage API e simulação de um fluxo real de e-commerce no lado do cliente.
 
