@@ -59,8 +59,6 @@ Acesse em `http://localhost:5500`.
 
 ## Equipe
 
-Desenvolvido por:
-
 - Geovanna de Lima Novais — [@geonovais](https://github.com/geonovais)
 - Laís da Silva Ferreira — [@laisdsf](https://github.com/laisdsf)
 - Patrícia Queiroz de Oliveira — [@patriciaqueiroz2025](https://github.com/patriciaqueiroz2025)
